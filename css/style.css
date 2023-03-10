@@ -18,8 +18,6 @@ body {
     justify-content: center;
 }
 
-
-
 .container {
     display: flex;
     height: 100%;
@@ -119,4 +117,18 @@ body {
 
 button:hover {
     background-color: #dd992d;
+}
+
+@media (max-width: 470px) {
+    .container {
+        width: 355px;
+    }
+
+    .topo h1 {
+        font-size: 45px;
+    }
+
+    .jogo {
+        height: 350px;
+    }
 }
